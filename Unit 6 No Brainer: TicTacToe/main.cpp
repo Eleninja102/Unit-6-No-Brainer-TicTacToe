@@ -6,9 +6,33 @@
 //
 
 #include <iostream>
+#include "TTTGrid.hpp"
 
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+using std::cin,std::cout,std::endl;
+
+int main() {
+    TTTGrid game;
+    char choice;
+    for(int i = 0; i < 9; i++){
+        //system("clear"); doesn't work for mac/xcode
+        cout << "Tic Tac Toe"<< endl;
+        cout << game;
+        cout << endl << game.getCurrentPlayer() << "\'s turn\n";
+        cin >> choice;
+        
+        game.selectMove(choice);
+        if(game.hasWon()){
+            cout << game.getCurrentPlayer() << " WINS\n";
+            break;
+            
+        }else{
+            game.switchPlayer();
+        }
+            
+    }
+    
+    
+   
+    
     return 0;
 }

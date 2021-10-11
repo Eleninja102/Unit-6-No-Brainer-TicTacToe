@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1DC67F252714C07200A75855 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1DC67F242714C07200A75855 /* main.cpp */; };
+		1DC67F2D2714C59000A75855 /* TTTGrid.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1DC67F2B2714C59000A75855 /* TTTGrid.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		1DC67F212714C07200A75855 /* Unit 6 No Brainer: TicTacToe */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Unit 6 No Brainer: TicTacToe"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DC67F242714C07200A75855 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		1DC67F2B2714C59000A75855 /* TTTGrid.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TTTGrid.cpp; sourceTree = "<group>"; };
+		1DC67F2C2714C59000A75855 /* TTTGrid.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = TTTGrid.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				1DC67F242714C07200A75855 /* main.cpp */,
+				1DC67F2B2714C59000A75855 /* TTTGrid.cpp */,
+				1DC67F2C2714C59000A75855 /* TTTGrid.hpp */,
 			);
 			path = "Unit 6 No Brainer: TicTacToe";
 			sourceTree = "<group>";
@@ -119,6 +124,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1DC67F2D2714C59000A75855 /* TTTGrid.cpp in Sources */,
 				1DC67F252714C07200A75855 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
